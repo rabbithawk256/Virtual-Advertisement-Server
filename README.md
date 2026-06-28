@@ -25,6 +25,18 @@ To build or run the project, use one of the following tasks:
 | `./gradlew build` | Build the project |
 | `./gradlew run`   | Run the server    |
 
+## Docker
+
+Build and run the container with Docker Compose:
+
+```shell
+docker compose up --build
+```
+
+The service is published on `http://localhost:8080`.
+
+The local `./adPool` directory is mounted into the container at `/app/adPool`, so changes made on the host are visible to the running container.
+
 If the server starts successfully, you'll see the following output:
 
 ```
