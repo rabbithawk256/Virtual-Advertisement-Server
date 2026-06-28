@@ -1,0 +1,12 @@
+.git
+.github
+.gradle
+.idea
+.junie
+.kotlin
+build
+out
+*.iml
+*.log
+hs_err_pid*
+replay_pid*
